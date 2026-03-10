@@ -1,6 +1,6 @@
 # 🏠 House Price Prediction — End-to-End ML Project
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR_APP_URL.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://house-price-prediction-ou2wwqfmkvow7ndbyc9hkz.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.2-orange)
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen)
@@ -11,7 +11,7 @@
 ---
 
 ## 🔗 Live Demo
-👉 **[Click here to try the app](https://YOUR_APP_URL.streamlit.app)**
+👉 **[Click here to try the app](https://house-price-prediction-ou2wwqfmkvow7ndbyc9hkz.streamlit.app/)**
 
 > 🖼️ **App Screenshot:**  
 > ![App Screenshot](images/app_screenshot.png)  
