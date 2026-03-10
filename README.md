@@ -242,8 +242,7 @@ Built a full interactive web app with real-time predictions.
 
 **Deployed on Streamlit Cloud:**  
 👉 [YOUR_APP_URL.streamlit.app]([https://YOUR_APP_URL.streamlit.app](https://house-price-prediction-ou2wwqfmkvow7ndbyc9hkz.streamlit.app/))
-
-> 🖼️ Add your app screenshot here:  
+ 
 > ![Streamlit App](images/app_screenshot.png.png)
 
 ---
@@ -299,9 +298,9 @@ streamlit run app.py
 ## 👤 Author
 
 **Rakesh**  
-📧 your-email@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)  
-🐙 [GitHub](https://github.com/YOUR_USERNAME)
+📧 rakeshvallepu599@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/vallepu-rakesh)  
+🐙 [GitHub](https://github.com/Rakesh5922)
 
 ---
 
