@@ -14,8 +14,7 @@
 👉 **[Click here to try the app](https://house-price-prediction-ou2wwqfmkvow7ndbyc9hkz.streamlit.app/)**
 
 > 🖼️ **App Screenshot:**  
-> ![App Screenshot](images/app_screenshot.png)  
-> *(Take a screenshot of your running Streamlit app and save it as `images/app_screenshot.png`)*
+> ![App Screenshot](images/app_screenshot.png.png)  
 
 ---
 
@@ -68,7 +67,7 @@ Visualize SalePrice distribution — it is right-skewed, so we apply log transfo
 
 | Before Log Transform | After Log Transform |
 |---------------------|---------------------|
-| ![SalePrice Distribution](images/06_saleprice_distribution.png) | ![Log SalePrice](images/07_log_saleprice_distribution.png) |
+| ![SalePrice Distribution](images/saleprices_distribution.png) | ![Log SalePrice](images/log(saleprice).png) |
 
 > 💡 **Why?** Models perform better when the target is normally distributed.
 
@@ -79,7 +78,7 @@ Find which features are most strongly correlated with SalePrice.
 
 ![Top Correlations](images/08_top_correlations.png)
 
-![Correlation Heatmap](images/09_correlation_heatmap.png)
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 > 💡 Top features: `OverallQual`, `GrLivArea`, `TotalBsmtSF`, `GarageCars`
 
@@ -89,13 +88,13 @@ Find which features are most strongly correlated with SalePrice.
 Visualize key relationships between features and SalePrice.
 
 **Overall Quality vs Price:**  
-![Quality vs Price](images/10_quality_vs_price.png)
+![Quality vs Price](images/ExQua_vs_price.png)
 
 **Living Area vs Price:**  
-![Living Area vs Price](images/11_livingarea_vs_price.png)
+![Living Area vs Price](images/aboveGL_area_vs_saleprice.png)
 
 **Neighborhood vs Price:**  
-![Neighborhood vs Price](images/12_neighborhood_vs_price.png)
+![Neighborhood vs Price](images/neighborhood_vs_saleprice.png)
 
 ---
 
