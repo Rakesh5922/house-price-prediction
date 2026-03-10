@@ -67,7 +67,7 @@ Visualize SalePrice distribution — it is right-skewed, so we apply log transfo
 
 | Before Log Transform | After Log Transform |
 |---------------------|---------------------|
-| ![SalePrice Distribution](images/saleprices_distribution.png) | ![Log SalePrice](images/log(saleprice).png) |
+| ![SalePrice Distribution](images/saleprices-distribution.png) | ![Log SalePrice](images/log(saleprice).png) |
 
 > 💡 **Why?** Models perform better when the target is normally distributed.
 
@@ -76,7 +76,7 @@ Visualize SalePrice distribution — it is right-skewed, so we apply log transfo
 ### 📘 Lesson 3 — Correlation Analysis
 Find which features are most strongly correlated with SalePrice.
 
-![Top Correlations](images/08_top_correlations.png)
+![Top Correlations](images/features_correlated_with_saleprice.png)
 
 ![Correlation Heatmap](images/correlation_heatmap.png)
 
@@ -88,7 +88,7 @@ Find which features are most strongly correlated with SalePrice.
 Visualize key relationships between features and SalePrice.
 
 **Overall Quality vs Price:**  
-![Quality vs Price](images/ExQua_vs_price.png)
+![Quality vs Price](images/overall_quallity_vs_saleprice.png)
 
 **Living Area vs Price:**  
 ![Living Area vs Price](images/aboveGL_area_vs_saleprice.png)
@@ -139,7 +139,7 @@ Create 11 new features that capture information better than the original columns
 | `QualXArea` | OverallQual × TotalSF | Interaction: quality AND size together |
 
 **Before vs After Feature Engineering:**  
-![Feature Engineering](images/23_feature_engineering_comparison.png)
+![Feature Engineering](images/before_after.png)
 
 ---
 
@@ -155,14 +155,14 @@ Convert text categories to numbers so the model can process them.
 train = pd.get_dummies(train, drop_first=True)
 ```
 
-![Exterior Quality Encoded](images/28_exterior_quality_encoded.png)
+![Exterior Quality Encoded](images/ExQua_vs_price.png)
 
 ---
 
 ### 📘 Lesson 9 — Model Building & Comparison
 Train and compare three models.
 
-![Model Comparison](images/36_model_comparison.png)
+![Model Comparison](images/comparison.png)
 
 | Model | Key Insight |
 |-------|------------|
@@ -171,7 +171,7 @@ Train and compare three models.
 | **Gradient Boosting** | Best — learns from errors sequentially — R² ~0.91 |
 
 **Ridge Actual vs Predicted:**  
-![Ridge Predictions](images/32_ridge_actual_vs_predicted.png)
+![Ridge Predictions](images/actual_vs_predicted.png)
 
 ---
 
@@ -185,7 +185,7 @@ print(f"Mean CV R²: {cv_scores.mean():.4f}")
 ```
 
 **RMSE Before vs After Tuning:**  
-![RMSE Comparison](images/41_rmse_comparison.png)
+![RMSE Comparison](images/RMSE_comparison.png)
 
 ---
 
@@ -193,16 +193,16 @@ print(f"Mean CV R²: {cv_scores.mean():.4f}")
 Deeply evaluate the final tuned model beyond just R².
 
 **Top 15 Most Important Features:**  
-![Feature Importance](images/37_feature_importance.png)
+![Feature Importance](images/feature_importance.png)
 
 **Residuals vs Predicted:**  
-![Residuals vs Predicted](images/43_residuals_vs_predicted.png)
+![Residuals vs Predicted](images/residuals_vs_predicted.png)
 
 **Residuals Distribution (bell-shaped = good):**  
-![Residuals Distribution](images/44_residuals_distribution.png)
+![Residuals Distribution](images/residuals_distribution.png)
 
 **Final Actual vs Predicted:**  
-![Final Predictions](images/45_final_actual_vs_predicted.png)
+![Final Predictions](images/final_actual_vs_predicted.png)
 
 ```
 ========================================
@@ -241,10 +241,10 @@ Built a full interactive web app with real-time predictions.
 - 📋 Full input summary table
 
 **Deployed on Streamlit Cloud:**  
-👉 [YOUR_APP_URL.streamlit.app](https://YOUR_APP_URL.streamlit.app)
+👉 [YOUR_APP_URL.streamlit.app]([https://YOUR_APP_URL.streamlit.app](https://house-price-prediction-ou2wwqfmkvow7ndbyc9hkz.streamlit.app/))
 
 > 🖼️ Add your app screenshot here:  
-> ![Streamlit App](images/app_screenshot.png)
+> ![Streamlit App](images/app_screenshot.png.png)
 
 ---
 
